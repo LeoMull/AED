@@ -19,4 +19,5 @@ int main(){
 	for(int i=0; i<10; ++i){
 		printf("Maiores números = %d | Menores números = %d \n", p[1499-i], p[i]);
 	}
+	free(p);
 }
