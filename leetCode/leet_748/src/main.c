@@ -41,7 +41,7 @@ Teste se a palavra é válida, se for válida retorna 1, se não retorna 0
 ====================
 */
 int PalavraValida(char *word, char *licensePlate) {
-    char aux[15];
+    char aux[8];
     char *ptr;
 
     strcpy(aux, licensePlate);
