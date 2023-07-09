@@ -14,10 +14,12 @@ Return the shortest completing word in words. It is guaranteed an answer exists.
 If there are multiple shortest completing words, return the first one that occurs in words.
 
 Três casos em que o problema funciona:
+
 licensePlate[] = {"1s3 pst"}, *words[] = {"step","steps","stripe","stepple"};
 Retorna: steps
 
 licensePlate2[] = {"1s3 456"}, *words2[] = {"looks","pest","stew","show"};
 Retorna: pest
+
 licensePlate3[] = {"aBc 12c"}, *words3[] = {"abccdef", "caaacab", "cbca"};
 Retorna: cbca
