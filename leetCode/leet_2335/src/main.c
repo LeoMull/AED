@@ -11,6 +11,12 @@ int main(){
     
     return 0;
 }
+/*
+=======================
+fillCups
+    Retorna o numero de segundos que leva para encher os copos
+=======================
+*/
 
 int fillCups( int* amount, int amountSize ){
     int total = 0 ;
